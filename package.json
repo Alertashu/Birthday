@@ -11,10 +11,10 @@
   "scripts": {
     "watch:parcel": "parcel src/index.html",
     "build:parcel": "parcel build src/index.html",
-    "init-index-local": "node builder/init.js --local",
+    "init-index": "node builder/init.js",
     "init-index-remote": "node builder/init.js --remote",
     "watch": "npm-run-all init-index-local watch:parcel",
-    "build": "npm-run-all init-index-local build:parcel"
+    "build": "npm-run-all init-index build:parcel"
   },
   "repository": {
     "type": "git",
